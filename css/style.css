@@ -1,0 +1,10 @@
+/* Navbar */
+
+.navbar{
+    padding-left: 20px;
+    background-color: #f4c4c4;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navbar-collapse{
+    padding-left: 180px;
+}
