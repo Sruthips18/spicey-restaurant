@@ -1,9 +1,17 @@
 # spicey-restaurant
 
-About this template
+This is the source code for spicey-restaurant, a responsive e-commerce template.
 
-Actual Link : https://sruthips18.github.io/spicey-restaurant/
+## Hosted Github Page
+[Visit spicey-restaurant](https://sruthips18.github.io/spicey-restaurant/)
 
-Figma Link : https://www.figma.com/design/k6ZJpAATAvB8avauTBn2Ya/yummy-red?node-id=39-2&t=UwC7M6skMMottwFU-1
+## Figma Design
+[spicey-restaurant Figma File](https://www.figma.com/design/k6ZJpAATAvB8avauTBn2Ya/yummy-red?node-id=39-2&t=UwC7M6skMMottwFU-1)
 
-Reference template link : https://themewagon.github.io/yummy-red/
+## References
+- [Original spicey-restaurant Template](https://themewagon.github.io/yummy-red/)
+
+## Features
+- Responsive design
+- Organized code structure
+- Hosted on GitHub Pages
