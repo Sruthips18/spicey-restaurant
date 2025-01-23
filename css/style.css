@@ -37,17 +37,43 @@ body{
 }
 .image-move-continuous {
     animation: moveTopToBottom 3s ease-in-out infinite;
-  }
+}
   
-  @keyframes moveTopToBottom {
-    0% {
-      transform: translateY(-10px); /* Start above the original position */
-    }
-    50% {
-      transform: translateY(10px); /* Move down to 10px below the original position */
-    }
-    100% {
-      transform: translateY(-10px); /* Return back to the top position */
-    }
+@keyframes moveTopToBottom {
+0% {
+    transform: translateY(-10px); /* Start above the original position */
+}
+50% {
+    transform: translateY(10px); /* Move down to 10px below the original position */
+}
+100% {
+    transform: translateY(-10px); /* Return back to the top position */
+}
+}
+
+/* about us section starts */
+.sub-heading {
+    font-family:"Amatic SC", sans-serif; 
+    font-size: 50px;
+    font-weight: 100;
+    word-spacing: 8px;
   }
-  
+.highlight{
+    color: red;
+}
+.list-items {
+    padding: 0;
+    margin: 0;
+  }
+.list-items li {
+    display: flex; 
+    margin-bottom: 8px; 
+    margin-left: 7%;
+}
+.list-items i {
+    margin-right: 5px; 
+    font-size: 1.2rem; 
+}
+.list-items span {
+    line-height: 1.5;
+}
