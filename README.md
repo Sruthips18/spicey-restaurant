@@ -1,6 +1,6 @@
 # spicey-restaurant
 
-This is the source code for spicey-restaurant, a responsive e-commerce template.
+This is the source code for spicey-restaurant.
 
 ## Hosted Github Page
 [Visit spicey-restaurant](https://sruthips18.github.io/spicey-restaurant/)
