@@ -6,8 +6,12 @@ body{
 }
 .navbar{
     padding-left: 20px;
-    background-color: #ffffff;
+    background-color: #f7f2f2;
     font-family: "Inter",  sans-serif;
+}
+.navbar-brand{
+    font-size: 30px;
+    margin-left: 10%;
 }
 .navbar-collapse{
     padding-left: 20%;
@@ -15,7 +19,7 @@ body{
 /* home section styling */
 .home-container{
     background-color: #f2f2f2;
-    height: 90vh;    
+    height: 100vh;    
 }
 .main-text,h1{
     font-family:"Amatic SC", sans-serif; 
