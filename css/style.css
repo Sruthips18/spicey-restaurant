@@ -165,3 +165,34 @@ body{
     font-weight: 1000;
 
 }
+/* testimonial */
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .container-testimonial,.swiper-slide,.card-test{
+    background-color:#f2f2f2;
+  }
+  .test-img{
+    margin-left: 70%;
+  }
+  .stars{
+    color: rgb(232, 232, 13);
+  }
+.test-head{
+    font-family:"Amatic SC", sans-serif; 
+}
