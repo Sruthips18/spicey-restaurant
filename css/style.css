@@ -166,11 +166,11 @@ body{
 
 }
 /* testimonial */
-.swiper {
+.swipper-testimonial {
     width: 100%;
     height: 100%;
   }
-  .swiper-slide {
+  .swiper-slides {
     text-align: center;
     font-size: 18px;
     background: #fff;
@@ -178,13 +178,13 @@ body{
     justify-content: center;
     align-items: center;
   }
-  .swiper-slide img {
+  .swiper-slides img {
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
-  .container-testimonial,.swiper-slide,.card-test{
+  .container-testimonial,.swiper-slides,.card-test{
     background-color:#f2f2f2;
   }
   .test-img{
@@ -196,3 +196,32 @@ body{
 .test-head{
     font-family:"Amatic SC", sans-serif; 
 }
+/* event  */
+.event-slide {
+    position: relative;
+  }
+  .swiper-img {
+    width: 100%;
+    filter: brightness(50%);
+  }
+
+  .text-overlay {
+    position: absolute;
+    justify-content:right;
+    top: 70%;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 80%;
+  }
+  .price {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  .description p {
+    font-size: 1rem;
+  }
+  .text-overlay h2{
+    font-family:"Amatic SC", sans-serif; 
+  }

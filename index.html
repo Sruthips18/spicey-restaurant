@@ -255,9 +255,9 @@
   <div class="container-fluid container-testimonial">
     <h6 class="d-flex justify-content-center text-secondary mt-5">TESTIMONIAL</h6>
     <h4 class="sub-heading d-flex justify-content-center mt-4">WHAT ARE THEY<span class="highlight">SAYING ABOUT US</span></h4>
-    <div class="swiper mySwiper mt-5">
+    <div class="swiper swipper-testimonial mySwiper mt-5">
       <div class="swiper-wrapper">
-        <div class="swiper-slide">
+        <div class="swiper-slide swiper-slides">
             <div class="row">
               <div class="col-lg-6">
                 <div class="card card-test border-0" style="width: 18rem;">
@@ -284,7 +284,7 @@
             </div>
         </div>
         <!-- -----------2nd image----------------------------- -->
-        <div class="swiper-slide">
+        <div class="swiper-slide swiper-slides">
           <div class="row">
             <div class="col-lg-6">
               <div class="card card-test border-0" style="width: 18rem;">
@@ -311,7 +311,7 @@
           </div>
         </div>
         <!-- 3rd -->
-        <div class="swiper-slide">
+        <div class="swiper-slide swiper-slides">
           <div class="row">
             <div class="col-lg-6">
               <div class="card card-test border-0" style="width: 18rem;">
@@ -337,7 +337,7 @@
           </div>
         </div>
         <!-- -------4TH image -->
-        <div class="swiper-slide">
+        <div class="swiper-slide swiper-slides">
           <div class="row">
             <div class="col-lg-6">
               <div class="card card-test border-0" style="width: 18rem;">
@@ -384,6 +384,98 @@
       });
     </script>
   </div>
+  <!-- ----------------event section--------------------------------------------- -->
+  <div class="container-fluid mt-5">
+    <div class="swiper Swiper-event">
+      <div class="swiper-wrapper">
+        
+        <!-- First Slide with Image and Text Overlay -->
+        <div class="swiper-slide event-slide position-relative">
+          <img src="images/events-1.jpg" alt="" class="img-fluid swiper-img">
+          
+          <!-- Overlay Text -->
+          <div class="text-overlay">
+            <h2>CUSTOM PARTIES</h2>
+            <div class="price">$99</div>
+            <div class="description">
+              <p>Quo corporis voluptas ea ad. Consectetur inventore sapiente ipsum voluptas eos omnis facere. Enim facilis veritatis id est rem repudiandae nulla expedita quas.</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="swiper-slide">
+          <img src="images/events-2.jpg" alt="" class="img-fluid swiper-img">
+          
+          <!-- Overlay Text -->
+          <div class="text-overlay">
+            <h2>PRIVATE PARTIES</h2>
+            <div class="price">$289</div>
+            <div class="description">
+              <p>
+                "In delectus sint qui et enim. Et ab repudiandae inventore quaerat doloribus. Facere nemo vero est ut dolores ea assumenda et. Delectus saepe accusamus aspernatur."
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="images/events-3.jpg" alt="" class="img-fluid swiper-img">
+          
+          <!-- Overlay Text -->
+          <div class="text-overlay">
+            <h2>BIRTHDAY PARTIES</h2>
+            <div class="price">$499</div>
+            <div class="description">
+              <p>
+                Laborum aperiam atque omnis minus omnis est qui assumenda quos. Quis id sit quibusdam. Esse quisquam ducimus officia ipsum ut quibusdam maxime. Non enim perspiciatis.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="images/events-4.jpg" alt="" class="img-fluid swiper-img">
+          
+          <!-- Overlay Text -->
+          <div class="text-overlay">
+            <h2>WEDDING PARTIES</h2>
+            <div class="price">$899</div>
+            <div class="description">
+              <p>"Laborum aperiam atque omnis minus omnis est qui assumenda quos. Quis id sit quibusdam. Esse quisquam ducimus officia ipsum ut quibusdam maxime. Non enim perspiciatis. "</p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+  
+      <!-- Swiper Pagination -->
+      <div class="swiper-pagination mt-5"></div>
+    </div>
+  </div>
+  
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  
+  <script>
+    var swiper = new Swiper(".Swiper-event", {
+      loop: true,
+      autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      breakpoints: {
+        768: {  // Tablets
+          slidesPerView: 1,
+        },
+        480: {  // Mobile
+          slidesPerView: 3,
+        }
+      }
+    });
+  </script>
+  
   <!-- --------------------------testimonial ends--------------------------------------------- -->
   </body>
 </html>
