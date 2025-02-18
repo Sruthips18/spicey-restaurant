@@ -571,5 +571,60 @@
     </div>
    </div>
   <!-- --------------------------Book a table section ends--------------------------------------------- -->
+
+  <!-- -------------------------gallery section starts--------------------------------------------------- -->
+  <div class="container-fluid gallery mt-4">
+    <h6 class="d-flex justify-content-center text-secondary mt-5">GALLERY</h6>
+    <h4 class="sub-heading d-flex justify-content-center mt-4">CHECK<span class="highlight">OUR GALLERY</span></h4>
+    
+    <!-- swipper -->
+    <div class="swiper gallery-Swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide gallery-slide">
+          <img src="images/gallery/gallery-1.jpg" alt="" class="img-fluid">
+        </div>
+        <div class="swiper-slide gallery-slide">
+          <img src="images/gallery/gallery-2.jpg" alt="" class="img-fluid">
+        </div>
+        <div class="swiper-slide gallery-slide">
+          <img src="images/gallery/gallery-3.jpg" alt="" class="img-fluid">
+        </div>
+        <div class="swiper-slide gallery-slide">
+          <img src="images/gallery/gallery-4.jpg" alt="" class="img-fluid">
+        </div>
+        <div class="swiper-slide gallery-slide">
+          <img src="images/gallery/gallery-5.jpg" alt="" class="img-fluid">
+        </div>
+        <div class="swiper-slide gallery-slide">
+          <img src="images/gallery/gallery-6.jpg" alt="" class="img-fluid">
+        </div>
+        <div class="swiper-slide gallery-slide">
+          <img src="images/gallery/gallery-7.jpg" alt="" class="img-fluid">
+        </div>
+        <div class="swiper-slide gallery-slide">
+          <img src="images/gallery/gallery-8.jpg" alt="" class="img-fluid">
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+   <!-- Initialize Swiper -->
+   <script>
+    var swiper = new Swiper(".gallery-Swiper", {
+      loop:true,
+      autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+      },
+      slidesPerView: 3,
+      spaceBetween: 30,
+      freeMode: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
+  <!-- -------------------------gallery section ends----------------------------------------------------- -->
 </body>
 </html>
