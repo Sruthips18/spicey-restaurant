@@ -103,22 +103,49 @@ body{
     color: red;
 }
 /* status section */
-.stats {
+/* .status-img{
     position: relative;
-    display: flex;
-    margin-top: 5%;
+    width: 100%;
+    filter: brightness(50%);
 }
-.stats img {
-    width: 100%;
-    object-fit:cover;
-  }
-.stats::after {
-    content: "";
+.stats-item{
+    position: absolute; 
+    transform: translate(0%, -200%);
+    color: white;
+    font-size: 1.2rem; 
+    font-weight: 600;
+    padding: 10px;
+} */
+.counters{
+    padding: 3em 2em;
+    color: white;
+    text-align: center;
+}
+.counters div{
+    margin: 0 auto;
+    gap: 4em 2em;
+}
+.counter{
+    position: relative;
+}
+.counter h2{
+    font-size: 1em;
+    margin-top: 0.5em;
+    font-weight: bold;
+    color: white;
+}
+.counter h3{
+    font-size:0.8rem ;
+}
+.counter:not(:last-child)::before{
+    content: '';
     position: absolute;
-    width: 100%;
-    height: 80%;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
+    width: 2px;
+    height: 3em;
+    top: 50%;
+}
+
+
 /*  menu section */
 .menu-heading{
     font-family: 'Times New Roman', Times, serif;
@@ -225,3 +252,83 @@ body{
   .text-overlay h2{
     font-family:"Amatic SC", sans-serif; 
   }
+
+  /* chefs */
+.team-members {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Enlarge the entire card when hovering over the image */
+.member-img:hover ~ .team-members,
+.team-members:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.member-img {
+    position: relative;
+    overflow: hidden;
+}
+
+.member-img img {
+    width: 100%;
+    display: block;
+}
+
+.social {
+    position: absolute;
+    top: 20%;
+    right: -50px; /* Initially outside */
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    border-radius: 10px;
+    opacity: 0;
+    transition: right 0.3s ease, opacity 0.3s ease;
+}
+
+/* Show social icons when hovering */
+.member-img:hover .social,
+.team-members:hover .social {
+    right: 10px;
+    opacity: 1;
+}
+
+.social a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social a:hover {
+    color: #f8b400;
+}
+
+.member-details {
+    text-align: center;
+    padding: 15px;
+}
+
+.member-details h4 {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.member-details span {
+    color: gray;
+    font-size: 14px;
+}
+
+.member-details p {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #555;
+}
