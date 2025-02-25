@@ -147,6 +147,9 @@ body{
 
 
 /*  menu section */
+.menu{
+    background-color: white;
+}
 .menu-heading{
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.2rem;
@@ -353,3 +356,49 @@ body{
 .gallery{
     background-color: #f2f2f2;
 }
+
+/* map section */ 
+  .icon-container {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+  }
+  .contact-card{
+    padding: 10px;
+    background-color: white;
+    box-shadow:10px 5px 10px 5px rgb(226, 225, 225);
+  }
+  .text-container h5{
+    color: #555;
+    font-weight: 600;
+  }
+  .text-container {
+    font-size: 20px;
+  }
+  .contact-form{
+    border:1px solid rgb(253, 252, 252);
+    padding: 30px;
+    box-shadow:10px 10px 10px 10px rgb(226, 225, 225);
+  }
+  .input1 input{
+    width: 45%;
+    height: 50px;
+  }
+  .input2 input{
+    width: 90%;
+    height: 50px;
+  }
+  .button-form button{
+    width: 20%;
+    height: 40%;
+    color: white;
+    background-color: rgb(164, 59, 59);
+    border: none;
+    
+  }
