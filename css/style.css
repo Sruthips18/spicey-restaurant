@@ -400,5 +400,10 @@ body{
     color: white;
     background-color: rgb(164, 59, 59);
     border: none;
-    
+  }
+  /* footer */
+  .footer{
+    color: white;
+    background-color: black;
+    padding: 20px;
   }
